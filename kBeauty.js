@@ -1,5 +1,5 @@
 
-
+// Hey
 function findK(num) {
     return (num).toString().split("").filter((item, i, ar) => ar.indexOf(item) === i).length;
 }
